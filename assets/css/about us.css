@@ -875,7 +875,7 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .hero-section h1 {
         font-size: 2.2rem;
     }
@@ -1142,7 +1142,6 @@ footer {
         grid-template-columns: 1fr 1fr; /* Two-column layout on smaller screens */
     }
 }
-
 
 
 
