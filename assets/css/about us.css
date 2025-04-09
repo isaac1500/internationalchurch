@@ -12,6 +12,26 @@
     font-family: 'Poppins', sans-serif;
     }
     
+
+
+
+
+
+    body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        width: 100%;
+    }
+    
+    .header-container, .about-container, .hero-section, .mission-section {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+
+
+    
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
     
     :root {
