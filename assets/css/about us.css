@@ -12,25 +12,6 @@
     font-family: 'Poppins', sans-serif;
     }
     
-
-
-
-
-
-    body {
-        overflow-x: hidden; /* Prevent horizontal scrolling */
-        width: 100%;
-    }
-    
-    .header-container, .about-container, .hero-section, .mission-section {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    
-
-
     
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
     
@@ -1120,5 +1101,44 @@ footer {
     
     .footer-column:last-child {
         margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+/* Ensure proper layout on smaller screens */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 1rem; /* Reduce padding for small screens */
+    }
+    
+    .mission-section,
+    .history-section,
+    .values-section {
+        padding: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        width: 100%; /* Make nav items stack on mobile */
+        margin-bottom: 10px;
+    }
+
+    .donate-btn {
+        width: 100%; /* Full-width donate button on mobile */
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .leaders-grid {
+        grid-template-columns: 1fr 1fr; /* Two-column layout on smaller screens */
     }
 }
