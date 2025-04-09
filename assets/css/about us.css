@@ -942,11 +942,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
+/* body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
+} */
 
 main {
     flex: 1;
@@ -1109,36 +1109,3 @@ footer {
 
 
 
-
-/* Ensure proper layout on smaller screens */
-@media (max-width: 768px) {
-    .hero-section {
-        padding: 3rem 1rem; /* Reduce padding for small screens */
-    }
-    
-    .mission-section,
-    .history-section,
-    .values-section {
-        padding: 1.5rem;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-links li {
-        width: 100%; /* Make nav items stack on mobile */
-        margin-bottom: 10px;
-    }
-
-    .donate-btn {
-        width: 100%; /* Full-width donate button on mobile */
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    .leaders-grid {
-        grid-template-columns: 1fr 1fr; /* Two-column layout on smaller screens */
-    }
-}
