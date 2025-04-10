@@ -1683,11 +1683,11 @@ animation: pulse 1.5s infinite;
 
 
 :root {
---primary: #4a6fa5;
+--primary: #032353;
 --primary-dark: #3a5a8a;
---secondary: #e8b75b;
---secondary-dark: #d9a74b;
---light: #f8f9fa;
+--secondary: #f7a307;
+--secondary-dark: #865904;
+--light: #f8fdf8;
 --dark: #343a40;
 --white: #ffffff;
 --black: #000000;
